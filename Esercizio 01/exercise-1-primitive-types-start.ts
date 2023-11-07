@@ -22,6 +22,6 @@ let isSummer: boolean = false;
 
 let languages: string = "Spanish, English";
 
-// ----
+// ---
 
 export {};
