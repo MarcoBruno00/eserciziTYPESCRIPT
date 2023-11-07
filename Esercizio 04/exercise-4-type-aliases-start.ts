@@ -4,12 +4,13 @@
 
 // Create a `Country` type alias for the `string` type.
 // Change the type for each variable to use the `Country` type.
+type country = string
 
-const country1: string = "Nigeria";
+const country1: country = "Nigeria";
 
-const country2: string = "Italy";
+const country2: country= "Italy";
 
-const country3: string = "China";
+const country3: country= "China";
 
 // ----
 
