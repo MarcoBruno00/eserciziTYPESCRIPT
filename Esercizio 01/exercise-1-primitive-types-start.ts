@@ -16,11 +16,11 @@ let currency = null;
 
 // Change the type annotations on these variables so they are correct.
 
-let population: boolean = 47_450_795;
+let population: number = 47_450_795;
 
-let isSummer: string = false;
+let isSummer: boolean = false;
 
-let languages: number = "Spanish, English";
+let languages: string = "Spanish, English";
 
 // ----
 
