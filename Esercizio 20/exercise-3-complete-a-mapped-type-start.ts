@@ -1,7 +1,3 @@
-/**
- * START: Follow the instructions below.
- */
-
 type CountryData = {
     name: string;
     languages: string[];
@@ -15,8 +11,8 @@ type CountryData = {
 //
 // These changes should fix all the type errors.
 
-type Descriptions = {
-    [Property in keyof Type]: never;
+type Descriptions<T> = {
+    [Property in keyof T]: string;
 };
 
 const countryDataDescriptions: Descriptions<CountryData> = {
